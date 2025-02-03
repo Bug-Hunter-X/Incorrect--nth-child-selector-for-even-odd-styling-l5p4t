@@ -1,0 +1,8 @@
+/* Correct CSS using :nth-child for even/odd styling */
+.container div:nth-child(2n) {
+  background-color: lightblue;
+}
+
+.container div:nth-child(2n+1) {
+  background-color: lightcoral;
+}
